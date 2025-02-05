@@ -1,6 +1,5 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&family=Yeseva+One&display=swap');
-
 body {
     font-family: "Poppins", serif;
 }
@@ -16,6 +15,9 @@ body h1,p {
 }
 .container{
     width:80% ;
+}
+.highlight {
+    color:#FFAD5A ;  
 }
 /* Header Section CSS */
 header{
@@ -34,9 +36,7 @@ header{
     border-left:4px solid #ff5959;
     padding-left: 15px ;
 }
-.content-area h1 span{
-    color:#FFAD5A ;  
-}
+
 .content-area p{
     font-size: 18px;
 }
@@ -48,10 +48,42 @@ header{
     text-decoration: none;
     border-radius: 5px ;
 }
+
 header .avatar{
  text-align: center;
 }
 .avatar img{
     width: 60%;
 }
-    
+/* Mission section  CSS*/
+.mission{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.mission h1{
+    font-size:40px ;
+    text-align: center;
+}
+.mission .items{
+    display: flex;
+    gap: 20px;
+/* width: 100%; */
+}
+.items .item {
+    border-radius: 20px;
+    padding: 20px;
+}
+.items.items img{
+    width: 150px;
+}
+
+#item1{
+    background-color: #4f9da61a;
+}
+#item2{
+    background-color: #ff8b591a;
+}
+#item3{
+    background-color:#fff4d6 ;
+}
