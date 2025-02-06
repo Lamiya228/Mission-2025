@@ -11,7 +11,7 @@ body h1,p {
     margin: 0 auto;
 }
 .half-width {
-    width: 50%;
+    width: 60%;
 }
 .container{
     width:80% ;
@@ -51,6 +51,7 @@ header{
 
 header .avatar{
  text-align: center;
+ justify-content: center;
 }
 .avatar img{
     width: 60%;
@@ -60,6 +61,7 @@ header .avatar{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding-top: 50px ;
 }
 .mission h1{
     font-size:40px ;
@@ -86,4 +88,43 @@ header .avatar{
 }
 #item3{
     background-color:#fff4d6 ;
+}
+/* Develop Scetion */
+.developer{
+   background-image: url(images/shapes/shape-1.png),
+   url(images/illustrators/pattern.svg.svg);
+   background-repeat: no-repeat;
+   background-size: 15% , 8%;
+   background-position: left center, left bottom;
+}
+.develop{
+    display: flex;
+    gap: 60px;
+}
+.text{
+    width: 400px
+}
+.left-contant img{
+    width: 100%;
+}
+.right-contant{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+.right-contant a {
+ background-color:  #ff5959;
+ text-decoration: none;
+ padding: 10px 40px;
+ display: inline-block;
+ border-radius: 5px;
+ color: white;
+}
+.photo {
+    width: 50%;
+}
+.padding-y{
+    padding: 100px;
 }
