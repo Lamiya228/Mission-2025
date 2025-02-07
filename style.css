@@ -19,6 +19,9 @@ body h1,p {
 .highlight {
     color:#FFAD5A ;  
 }
+.gap{
+    gap: 30px;
+}
 /* Header Section CSS */
 header{
     background-color:
@@ -54,7 +57,7 @@ header .avatar{
  justify-content: center;
 }
 .avatar img{
-    width: 60%;
+    width: 80%;
 }
 /* Mission section  CSS*/
 .mission{
@@ -107,6 +110,10 @@ header .avatar{
 .left-contant img{
     width: 100%;
 }
+.develop .right-contant h1{
+    font-size: 36px;
+}
+
 .right-contant{
 
   display: flex;
@@ -127,4 +134,36 @@ header .avatar{
 }
 .padding-y{
     padding: 100px;
+}
+ 
+/* Global Community Section */
+
+.community img{
+    width: 100%;
+}
+.community .third-half{
+    width: 70%;
+}
+.community h1{
+    font-size: 36px;
+}
+.community a {
+    background-color: #ff5959;
+    text-decoration: none;
+    color: white;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.community .right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.community{
+    background-image: url(images/shapes/shape-1.png);
+    background-size:15% ;
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
