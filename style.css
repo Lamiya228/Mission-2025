@@ -196,5 +196,15 @@ border-radius: 5px;
 color: white; 
 }
 .side{
-    width: 40%;
+width: 40%;
 }
+  
+/*  footer Section */
+footer {
+    text-align: center;
+    background-color: black;
+    color: wheat;
+    padding: 20px;
+    font-size: 15px;
+}
+
