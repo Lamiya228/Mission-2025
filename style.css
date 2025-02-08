@@ -20,7 +20,10 @@ body h1,p {
     color:#FFAD5A ;  
 }
 .gap{
-    gap: 30px;
+    gap: 60px;
+}
+.padding-y{
+    padding: 50px 0;
 }
 /* Header Section CSS */
 .content-area {
@@ -138,21 +141,21 @@ header .avatar{
 .community img{
     width: 100%;
 }
-.community .third-half{
-     width: 150%; 
+.community .third-half {
+    width: 80%;
 }
-.community h1{
+.community h1 {
     font-size: 36px;
 }
 .community a {
     background-color: #ff5959;
-    text-decoration: none;
     color: white;
+    text-decoration: none;
     padding: 10px 40px;
     display: inline-block;
     border-radius: 5px;
 }
-.community .right-box {
+.community .box-middle {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,11 +163,10 @@ header .avatar{
 }
 .community{
     background-image: url(images/shapes/shape-1.png);
-    background-size:15% ;
     background-repeat: no-repeat;
+    background-size: 15% ;
     background-position: right bottom;
-}
-
+ }
 /* Health Section */
 .health{
     display: flex;
