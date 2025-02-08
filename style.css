@@ -23,9 +23,6 @@ body h1,p {
     gap: 30px;
 }
 /* Header Section CSS */
-header{
-    background-color:
-}
 .content-area {
     display: flex;
     flex-direction: column;
@@ -142,7 +139,7 @@ header .avatar{
     width: 100%;
 }
 .community .third-half{
-    width: 70%;
+     width: 150%; 
 }
 .community h1{
     font-size: 36px;
@@ -166,4 +163,38 @@ header .avatar{
     background-size:15% ;
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+/* Health Section */
+.health{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 50px;
+}
+.health h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.health .boxs{
+display: flex;
+gap: 20px;
+}
+.box-2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+row-gap: 20px;
+}
+
+.box-2 a{ 
+background-color: rgb(255, 89, 89);
+text-decoration: none;
+padding: 10px 40px;
+display: inline-block;
+border-radius: 5px;
+color: white; 
+}
+.side{
+    width: 40%;
 }
